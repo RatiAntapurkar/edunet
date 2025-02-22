@@ -35,10 +35,11 @@ const Home = () => {
 
   return (
     <div className="home">
+      
       {}
       <Hero />
 
-      {}
+      {}<div id="featured-restaurants"></div>
       <FeaturedRestaurants restaurants={restaurants} />
 
       {}

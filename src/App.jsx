@@ -6,6 +6,9 @@ import Login from './components/Login';
 import Signup from './components/Signup';
 import Admin from './pages/Admin';
 import CartPage from './pages/CartPage';
+import About from './components/About';
+import Contact from './components/Contact';
+import PrivacyPolicy from './components/PrivacyPolicy';
 
 const App = () => {
   return (
@@ -17,6 +20,9 @@ const App = () => {
         <Route path="/signup" element={<Signup />} />
         <Route path="/admin" element={<Admin />} />
         <Route path="/cart" element={<CartPage />} />
+        <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/privacy" element={<PrivacyPolicy />} />
       </Routes>
     </Router>
   );

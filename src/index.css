@@ -413,7 +413,7 @@ a {
 
 
 .footer {
-  position: fixed;
+  position: sticky;
   bottom: 0;
   width: 100%;
   z-index: 1000;
@@ -464,4 +464,98 @@ a {
   gap: 1.5rem;
   justify-content: center;
   flex-wrap: wrap;
+}
+
+.about {
+  padding: 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.about h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  color: #fef8f5; 
+  font-family: 'Playfair Display', serif;
+}
+
+.about p {
+  font-size: 1.1rem;
+  color: #f4eeee;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+.contact {
+  padding: 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.contact h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  color: #f3f2f2; 
+  font-family: 'Playfair Display', serif;
+}
+
+.contact p {
+  font-size: 1.1rem;
+  color: #efeaea; 
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+.contact ul {
+  list-style: none;
+  padding: 0;
+}
+
+.contact ul li {
+  font-size: 1rem;
+  color: #fbf2f2;
+  margin-bottom: 0.5rem;
+}
+
+.privacy-policy {
+  padding: 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.privacy-policy h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  color: #f8f4f2; 
+  font-family: 'Playfair Display', serif;
+  text-align: center;
+}
+
+.privacy-policy h2 {
+  font-size: 1.75rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+  color: #f1edeb; 
+}
+
+.privacy-policy p {
+  font-size: 1.1rem;
+  color: #f9f5f5; 
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+.privacy-policy ul {
+  list-style: disc;
+  padding-left: 2rem;
+  margin-bottom: 1rem;
+}
+
+.privacy-policy ul li {
+  font-size: 1rem;
+  color: #d6d4d4;
+  margin-bottom: 0.5rem;
 }
