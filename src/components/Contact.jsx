@@ -8,9 +8,9 @@ const Contact = () => {
         Have questions, feedback, or suggestions? We'd love to hear from you! Reach out to us using the contact information below:
       </p>
       <ul>
-        <li><strong>Email:</strong> support@zomatoclone.com</li>
-        <li><strong>Phone:</strong> +1 (123) 456-7890</li>
-        <li><strong>Address:</strong> 123 Foodie Street, Culinary City</li>
+        <li><strong>Email:</strong> support@foody.com</li>
+        <li><strong>Phone:</strong> +91 9852XXXXX</li>
+        <li><strong>Address:</strong> 123 Foodie Street, Culinary Nashik City</li>
       </ul>
     </div>
   );
