@@ -16,6 +16,15 @@ import biryani from '../assets/biryani.jpeg';
 
 
 const Home = () => {
+  /*const [restaurants, setRestaurants] = useState([]);
+
+  // Fetch restaurants from the backend
+  useEffect(() => {
+    fetch('http://localhost:5000/api/restaurants')
+      .then((response) => response.json())
+      .then((data) => setRestaurants(data))
+      .catch((error) => console.error('Error fetching restaurants:', error));
+  }, []);*/
   const restaurants = [
     { id: 1, name: 'Dominoz', cuisine: 'Italian', location: 'Dsouza Colony', image: pasta },
     
